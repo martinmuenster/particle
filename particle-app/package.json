@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "particle-api-js": "^7.2.0",
+    "three": "^0.91.0",
+    "tone": "^0.12.80",
     "vue": "^2.5.3",
     "vuetify": "^1.0.0"
   },
