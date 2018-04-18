@@ -1,11 +1,11 @@
 <template>
   <v-app>
-
     <v-content>
      <div id="container">
       <v-container fluid>
         <v-slide-y-transition mode="out-in">
           <v-layout column align-center>
+            <h2>Audio/Visual Generation with a Particle IoT Device </h2>
             <v-btn block color="secondary" dark @click="initialize">Start</v-btn>
             <p> Light level: {{light}} | Temperature: {{temp}} | Humidity: {{humidity}} | Motion: {{motion!==0}} </p>
           </v-layout>
@@ -13,9 +13,6 @@
       </v-container>
      </div>
     </v-content>
-    <v-footer :fixed="fixed" app>
-      <span>Martin Muenster, 2018</span>
-    </v-footer>
   </v-app>
 </template>
 
