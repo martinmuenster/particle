@@ -7,7 +7,7 @@ This project was built to capture changing environments--weather, social gatheri
 
 ### Setup
 The project was created using a SparkFun Photon Redboard. Three sensors were connected to the board: light, motion, and humidity/temperature. The code used to run the device is linked here:
-[Particle code](https://github.com/martinmuenster/particle/env.ino).
+[Particle code](https://github.com/martinmuenster/particle/blob/master/env.ino).
 An image of the setup is shown below:
 ![alt text](https://github.com/martinmuenster/particle/images/setup.jpg "Particle setup")
 
