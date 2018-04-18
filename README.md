@@ -9,7 +9,7 @@ This project was built to capture changing environments--weather, social gatheri
 The project was created using a SparkFun Photon Redboard. Three sensors were connected to the board: light, motion, and humidity/temperature. The code used to run the device is linked here:
 [Particle code](https://github.com/martinmuenster/particle/blob/master/env.ino).
 An image of the setup is shown below:
-![alt text](https://github.com/martinmuenster/particle/images/setup.jpg "Particle setup")
+![alt text](https://github.com/martinmuenster/particle/blob/master/images/setup.JPG "particle setup")
 
 ### Website Funcionality
 This project uses Vuetify for the front-end. The Particle JavaScript API was used to allow the data from IoT device to be read. Tone.js was used to generate the audio, and THREE.js was used to generate the visuals. Light, humidity, temperature, and motion data are recieved from the Particle, and are used to change parameters within the visual and audio interfaces. Particle variables can easily be mapped to different audio/visual parameters, and new features/sensors can be easily implemented.
